@@ -11,7 +11,7 @@ This written analysis contains three sections:
 ## 1. Overview of Project
 
 
-The aim of the analysis was to provide actionable insights to Louise  which would help her determine the optimal time and budget that has historically resulted in successful campaigns. 
+The aim of the analysis was to provide actionable insights to Louise  which would help her determine the optimal time and budget that has historically resulted in successful campaigns. This information would help Louise, who is an upcoming playright to determine when to launch and how much to spend on the play 'Fever' to have the highest chance of success.
 
 The analysis involved looking at historical data from over **4,100** projects from across the world over a nine year period from 2009 to 2017.
 
@@ -55,7 +55,7 @@ Louise can conclude the following from the analysis of the impact of Launch Date
 
 There are some interesting takeaways when the relationship between outcomes of plays is analyzed with goal funding budget,
 
-- Low buget plays of less than `$5,000` have surprisingly turned out to be successful almost 75% of the time. This is highest success rate across any of the goal categories meaning **plays with good storyline and execution are likely to be successful irrespective of the amount of money spent on big name cast or on a fancy set.** This is borne out by the fact that plays greater than `$45,000` almost always end up being a failed venture. 
+- Low buget plays of less than `$5,000` have surprisingly turned out to be successful almost 75% of the time. This is highest success rate across any of the goal categories meaning **plays with good storyline and execution are likely to be successful irrespective of the amount of money spent on big name cast or on a fancy set.** This is borne out by the fact that plays greater than `$45,000` almost always end up being a failed venture. Thus for Louise, she can afford to fund 'Fever' comfortably with her $10,000 budget.
 
 ### c. What are some limitations of this dataset?
 
