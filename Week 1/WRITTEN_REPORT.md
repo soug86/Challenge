@@ -1,4 +1,4 @@
-# Module 1 Challenge- Deliverable 3
+# Module 1 Challenge- _Deliverable 3_
 
 This written analysis contains three sections:
 
@@ -22,17 +22,18 @@ The analysis involved looking at historical data from over **4,100** projects fr
 The aim of this section of the analysis was to determine the effect of launch timing on the outcome of the project.
 
 Firstly, the dataset had to be filtered so that only the appropriate projects related to 'Theaters' were considered. Next, the format for the launch dates had to be changed into a `Date` format in `MS Excel` so that we can analyze the impact of launch timing on the outcome. Once the format had been decided, the intention was to only focus on the relevant outcomes as a result of which the `Live` projects were not considered. Thus a pivot table was created to capture the impact of outcomes of theaters by month which was finally translated into the chart as below:
-![Theater Outcomes based on Launch Date](https://www.github.com/soug86/Resources/Theater_Outcomes_vs_Launch.png) 
+![Outcomes based on Launch Date](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### **b. Analysis of Outcomes Based on Goals**
 
-Additionally, Louise wanted to understand the effect of funding goals on outcome of plays. The intent is to provide her with some historical context as to what relationship does funding goal have with project outcome. In order to provide her with the appropriate view, the funding goals were grouped in `$5,000` increments and the number of successful, failed and canceled plays were determined from the dataset using `COUNTIFS` formula with multiple criteria. Consequently, the data was converted to percentage of outcome in each funding category to ensure the comparison was not skewed. A chart was created to provide Louise with a view of the relationship between funding goals and outcome of plays.
-![Outcomes based on Goals]
+Additionally, Louise wanted to understand the effect of funding goals on outcome of plays. The intent is to provide her with some historical context as to what relationship does funding goal have with project outcome. In order to provide her with the appropriate view, the funding goals were grouped in `$5,000` increments and the number of successful, failed and canceled plays were determined from the dataset using `COUNTIFS` formula with multiple criteria. Consequently, the data was converted to percentage of outcome in each funding category to ensure the comparison was not skewed. The chart below was created to provide Louise with a view of the relationship between funding goals and outcome of plays.
+![Outcomes based on Goals](Resources/Outcomes_vs_Goals.png)
+
 
 ### **c. Challenges and Difficulties Encountered**
 
 For the first analysis, 
-- The primary challenge was to ensure the dataset had been setup appropriately, especially ensuring the launch date format was translated from Unix timestamps to `MS Excel` date format. [ref] 
+- The primary challenge was to ensure the dataset had been setup appropriately, especially ensuring the launch date format was translated from Unix timestamps to `MS Excel` date format.
 - The other challenge with the first analysis was to ensure the filters were removed from the `PivotChart` to ensure it looked similar to a line chart. This was done by right-clicking the filter on the PivotChart and clicking `Hide All Filters from Chart`.
 
 For the second analysis,
@@ -74,6 +75,3 @@ There are some interesting takeaways when other factors are considered to unders
 - % Pledged vs Goal funding
 
 Additionally, while the first analysis included `Theaters` while the second analysis included on `Plays`. Analyzing the dataset with a consistent scope will provide more accurate takeaways.
-
-* Open up the activity workbook [07-Stu-OutliersDrawnQuartiled/Outliers_Activity_Unsolved.xlsx](Unsolved/Outliers_Activity_Unsolved.xlsx) and familiarize yourself with the raw data.
-
