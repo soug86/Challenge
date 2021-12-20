@@ -22,6 +22,7 @@ The analysis involved looking at historical data from over **4,100** projects fr
 The aim of this section of the analysis was to determine the effect of launch timing on the outcome of the project.
 
 Firstly, the dataset had to be filtered so that only the appropriate projects related to 'Theaters' were considered. Next, the format for the launch dates had to be changed into a `Date` format in `MS Excel` so that we can analyze the impact of launch timing on the outcome. Once the format had been decided, the intention was to only focus on the relevant outcomes as a result of which the `Live` projects were not considered. Thus a pivot table was created to capture the impact of outcomes of theaters by month which was finally translated into the chart as below:
+
 ![Outcomes based on Launch Date](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### **b. Analysis of Outcomes Based on Goals**
