@@ -64,7 +64,7 @@ The code that was used to determine this is below.A for loop was generated to re
 
 From the breakup above, we can infer that Denver county had the largest number of votes, making up 82.8% of the total votes cast.
 
-![Largest County](Resources/Largest_County.png)
+![Largest County](Resources/Largest_county.png)
 
 ### **d. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received:**
 
